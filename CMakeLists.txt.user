@@ -86,6 +86,12 @@
     <valuelist type="QVariantList" key="ClangTools.SuppressedDiagnostics"/>
     <value type="bool" key="ClangTools.UseGlobalSettings">true</value>
    </valuemap>
+<<<<<<< HEAD
+=======
+   <valuemap type="QVariantMap" key="CppEditor.QuickFix">
+    <value type="bool" key="UseGlobalSettings">true</value>
+   </valuemap>
+>>>>>>> 8e0bf03bf710e49b8dd4d040a9e8952fb22c9c2a
   </valuemap>
  </data>
  <data>
@@ -114,7 +120,12 @@
 -DCMAKE_GENERATOR:STRING=Ninja
 -DCMAKE_PROJECT_INCLUDE_BEFORE:FILEPATH=%{BuildConfig:BuildDirectory:NativeFilePath}/.qtc/package-manager/auto-setup.cmake
 -DCMAKE_CXX_COMPILER:FILEPATH=%{Compiler:Executable:Cxx}</value>
+<<<<<<< HEAD
     <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\Users\İbrahim F. Yoğurtçu\Documents\protoc-deneme\build\Desktop_Qt_6_9_1_MinGW_64_bit-Debug</value>
+=======
+    <value type="int" key="EnableQmlDebugging">0</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\Users\İbrahim F. Yoğurtçu\Documents\Client\build\Desktop_Qt_6_9_1_MinGW_64_bit-Debug</value>
+>>>>>>> 8e0bf03bf710e49b8dd4d040a9e8952fb22c9c2a
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="QString" key="CMakeProjectManager.MakeStep.BuildPreset"></value>
@@ -144,7 +155,15 @@
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Build</value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.MakeStep</value>
      </valuemap>
+<<<<<<< HEAD
      <value type="qlonglong" key="ProjectExplorer.BuildStepList.StepsCount">1</value>
+=======
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.1">
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.CopyFileStep</value>
+     </valuemap>
+     <value type="qlonglong" key="ProjectExplorer.BuildStepList.StepsCount">2</value>
+>>>>>>> 8e0bf03bf710e49b8dd4d040a9e8952fb22c9c2a
      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Clean</value>
      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Clean</value>
      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Clean</value>
@@ -215,15 +234,27 @@
      <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
      <value type="bool" key="PE.EnvironmentAspect.PrintOnRun">false</value>
      <value type="QString" key="PerfRecordArgsId">-e cpu-cycles --call-graph &quot;dwarf,4096&quot; -F 250</value>
+<<<<<<< HEAD
      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">protoc-deneme</value>
      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeRunConfiguration.</value>
      <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">protoc-deneme</value>
      <value type="bool" key="ProjectExplorer.RunConfiguration.Customized">true</value>
+=======
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Client</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeRunConfiguration.</value>
+     <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">Client</value>
+     <value type="bool" key="ProjectExplorer.RunConfiguration.Customized">true</value>
+     <value type="bool" key="RunConfiguration.Arguments.multi">true</value>
+>>>>>>> 8e0bf03bf710e49b8dd4d040a9e8952fb22c9c2a
      <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
      <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
      <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
      <value type="bool" key="RunConfiguration.UseTerminal">true</value>
+<<<<<<< HEAD
      <value type="QString" key="RunConfiguration.WorkingDirectory.default">C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug</value>
+=======
+     <value type="QString" key="RunConfiguration.WorkingDirectory.default">C:/Users/İbrahim F. Yoğurtçu/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug</value>
+>>>>>>> 8e0bf03bf710e49b8dd4d040a9e8952fb22c9c2a
     </valuemap>
     <value type="qlonglong" key="ProjectExplorer.Target.RunConfigurationCount">1</value>
    </valuemap>
@@ -285,15 +316,27 @@
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
     <value type="bool" key="PE.EnvironmentAspect.PrintOnRun">false</value>
     <value type="QString" key="PerfRecordArgsId">-e cpu-cycles --call-graph &quot;dwarf,4096&quot; -F 250</value>
+<<<<<<< HEAD
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">protoc-deneme</value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeRunConfiguration.</value>
     <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">protoc-deneme</value>
     <value type="bool" key="ProjectExplorer.RunConfiguration.Customized">true</value>
+=======
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Client</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeRunConfiguration.</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">Client</value>
+    <value type="bool" key="ProjectExplorer.RunConfiguration.Customized">true</value>
+    <value type="bool" key="RunConfiguration.Arguments.multi">true</value>
+>>>>>>> 8e0bf03bf710e49b8dd4d040a9e8952fb22c9c2a
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseTerminal">true</value>
+<<<<<<< HEAD
     <value type="QString" key="RunConfiguration.WorkingDirectory.default">C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug</value>
+=======
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">C:/Users/İbrahim F. Yoğurtçu/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug</value>
+>>>>>>> 8e0bf03bf710e49b8dd4d040a9e8952fb22c9c2a
    </valuemap>
    <value type="qlonglong" key="ProjectExplorer.Target.RunConfigurationCount">1</value>
   </valuemap>

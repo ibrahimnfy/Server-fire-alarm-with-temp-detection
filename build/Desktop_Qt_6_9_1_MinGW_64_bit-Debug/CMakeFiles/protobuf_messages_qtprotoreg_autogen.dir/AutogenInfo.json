@@ -1,5 +1,6 @@
 {
 	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
+<<<<<<< HEAD
 	"BUILD_DIR" : "C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_qtprotoreg_autogen",
 	"CMAKE_BINARY_DIR" : "C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug",
 	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug",
@@ -14,6 +15,22 @@
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake",
 		"C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake",
+=======
+	"BUILD_DIR" : "C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_qtprotoreg_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/Client",
+	"CMAKE_EXECUTABLE" : "C:/Qt/Tools/CMake_64/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/Client/CMakeLists.txt",
+		"C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake",
+		"C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake",
+		"C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake",
+		"C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake",
+>>>>>>> 8e0bf03bf710e49b8dd4d040a9e8952fb22c9c2a
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake",
@@ -26,7 +43,11 @@
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake",
+<<<<<<< HEAD
 		"C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake",
+=======
+		"C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake",
+>>>>>>> 8e0bf03bf710e49b8dd4d040a9e8952fb22c9c2a
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeRCInformation.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake",
@@ -429,22 +450,37 @@
 		"C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/Qt6Dependencies.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/GNUInstallDirs.cmake"
 	],
+<<<<<<< HEAD
 	"CMAKE_SOURCE_DIR" : "C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/protoc-deneme",
 	"CROSS_CONFIG" : false,
 	"DEP_FILE" : "C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_qtprotoreg_autogen/deps",
+=======
+	"CMAKE_SOURCE_DIR" : "C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/Client",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_qtprotoreg_autogen/deps",
+>>>>>>> 8e0bf03bf710e49b8dd4d040a9e8952fb22c9c2a
 	"DEP_FILE_RULE_NAME" : "protobuf_messages_qtprotoreg_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
+<<<<<<< HEAD
 			"C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_exports.qpb.h",
+=======
+			"C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_exports.qpb.h",
+>>>>>>> 8e0bf03bf710e49b8dd4d040a9e8952fb22c9c2a
 			"MU",
 			"OJ2ONFLRUJ/moc_protobuf_messages_exports.qpb.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+<<<<<<< HEAD
 	"INCLUDE_DIR" : "C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_qtprotoreg_autogen/include",
 	"MOC_COMPILATION_FILE" : "C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_qtprotoreg_autogen/mocs_compilation.cpp",
+=======
+	"INCLUDE_DIR" : "C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_qtprotoreg_autogen/include",
+	"MOC_COMPILATION_FILE" : "C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_qtprotoreg_autogen/mocs_compilation.cpp",
+>>>>>>> 8e0bf03bf710e49b8dd4d040a9e8952fb22c9c2a
 	"MOC_DEFINITIONS" : 
 	[
 		"MINGW_HAS_SECURE_API=1",
@@ -466,8 +502,13 @@
 	],
 	"MOC_INCLUDES" : 
 	[
+<<<<<<< HEAD
 		"C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_autogen/include",
 		"C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug",
+=======
+		"C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_autogen/include",
+		"C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug",
+>>>>>>> 8e0bf03bf710e49b8dd4d040a9e8952fb22c9c2a
 		"C:/Qt/6.9.1/mingw_64/include/QtProtobuf",
 		"C:/Qt/6.9.1/mingw_64/include",
 		"C:/Qt/6.9.1/mingw_64/include/QtCore",
@@ -500,6 +541,7 @@
 		"-c",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp"
 	],
+<<<<<<< HEAD
 	"MOC_PREDEFS_FILE" : "C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_qtprotoreg_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
@@ -513,21 +555,48 @@
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 10,
 	"PARSE_CACHE_FILE" : "C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/protobuf_messages_qtprotoreg_autogen.dir/ParseCache.txt",
+=======
+	"MOC_PREDEFS_FILE" : "C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_qtprotoreg_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/Client_autogen/include/ui_mainwindow.h",
+		"C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/Client_autogen/mocs_compilation.cpp",
+		"C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/message_qtprotoreg.cpp",
+		"C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_autogen/include/ui_mainwindow.h",
+		"C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_autogen/mocs_compilation.cpp"
+	],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 10,
+	"PARSE_CACHE_FILE" : "C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/protobuf_messages_qtprotoreg_autogen.dir/ParseCache.txt",
+>>>>>>> 8e0bf03bf710e49b8dd4d040a9e8952fb22c9c2a
 	"QT_MOC_EXECUTABLE" : "C:/Qt/6.9.1/mingw_64/bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "C:/Qt/6.9.1/mingw_64/bin/uic.exe",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 9,
+<<<<<<< HEAD
 	"SETTINGS_FILE" : "C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/protobuf_messages_qtprotoreg_autogen.dir/AutogenUsed.txt",
+=======
+	"SETTINGS_FILE" : "C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/protobuf_messages_qtprotoreg_autogen.dir/AutogenUsed.txt",
+>>>>>>> 8e0bf03bf710e49b8dd4d040a9e8952fb22c9c2a
 	"SOURCES" : [],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
 	"UIC_SKIP" : 
 	[
+<<<<<<< HEAD
 		"C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/message_qtprotoreg.cpp",
 		"C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_autogen/include/ui_mainwindow.h",
 		"C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_autogen/mocs_compilation.cpp",
 		"C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protoc-deneme_autogen/include/ui_mainwindow.h",
 		"C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protoc-deneme_autogen/mocs_compilation.cpp"
+=======
+		"C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/Client_autogen/include/ui_mainwindow.h",
+		"C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/Client_autogen/mocs_compilation.cpp",
+		"C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/message_qtprotoreg.cpp",
+		"C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_autogen/include/ui_mainwindow.h",
+		"C:/Users/\u0130brahim F. Yo\u011furt\u00e7u/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_autogen/mocs_compilation.cpp"
+>>>>>>> 8e0bf03bf710e49b8dd4d040a9e8952fb22c9c2a
 	],
 	"UIC_UI_FILES" : [],
 	"USE_BETTER_GRAPH" : true,

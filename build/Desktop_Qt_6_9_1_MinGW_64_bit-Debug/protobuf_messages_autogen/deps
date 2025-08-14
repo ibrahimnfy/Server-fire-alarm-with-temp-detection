@@ -613,6 +613,7 @@ protobuf_messages_autogen/timestamp: \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
+<<<<<<< HEAD
 	C:/Users/İbrahim\ F.\ Yoğurtçu/Documents/protoc-deneme/CMakeLists.txt \
 	C:/Users/İbrahim\ F.\ Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake \
 	C:/Users/İbrahim\ F.\ Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake \
@@ -623,4 +624,16 @@ protobuf_messages_autogen/timestamp: \
 	C:/Users/İbrahim\ F.\ Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/message.qpb.h \
 	C:/Users/İbrahim\ F.\ Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_autogen/moc_predefs.h \
 	C:/Users/İbrahim\ F.\ Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_exports.qpb.h \
+=======
+	C:/Users/İbrahim\ F.\ Yoğurtçu/Documents/Client/CMakeLists.txt \
+	C:/Users/İbrahim\ F.\ Yoğurtçu/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake \
+	C:/Users/İbrahim\ F.\ Yoğurtçu/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake \
+	C:/Users/İbrahim\ F.\ Yoğurtçu/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake \
+	C:/Users/İbrahim\ F.\ Yoğurtçu/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake \
+	C:/Users/İbrahim\ F.\ Yoğurtçu/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake \
+	C:/Users/İbrahim\ F.\ Yoğurtçu/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/message.qpb.cpp \
+	C:/Users/İbrahim\ F.\ Yoğurtçu/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/message.qpb.h \
+	C:/Users/İbrahim\ F.\ Yoğurtçu/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_autogen/moc_predefs.h \
+	C:/Users/İbrahim\ F.\ Yoğurtçu/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_exports.qpb.h \
+>>>>>>> 8e0bf03bf710e49b8dd4d040a9e8952fb22c9c2a
 	C:/Qt/Tools/CMake_64/bin/cmake.exe

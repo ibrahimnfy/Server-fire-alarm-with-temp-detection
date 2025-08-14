@@ -1,4 +1,5 @@
 #include "mainwindow.h"
+<<<<<<< HEAD
 #include "ui_mainwindow.h"
 
 MainWindow::MainWindow(QWidget *parent)
@@ -109,4 +110,20 @@ void MainWindow::onLogoutOccured(const QString &name, const int typeID)
     }
     int row= nameToRowMap[name].row;
     ui->tableWidget->setItem(row,7, new QTableWidgetItem(time));
+=======
+#include "./ui_mainwindow.h"
+
+MainWindow::MainWindow(QWidget *parent)
+    : QMainWindow(parent)
+    , ui(new Ui::MainWindow)
+{
+    ui->setupUi(this);
+    // client = new TestClient(this);
+    // client->connectAndSend("127.0.0.1", 12345);
+}
+
+MainWindow::~MainWindow()
+{
+    delete ui;
+>>>>>>> 8e0bf03bf710e49b8dd4d040a9e8952fb22c9c2a
 }

@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 C:/Users/İbrahim\ F.\ Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_autogen/include/moc_message.qpb.cpp: C:/Users/İbrahim\ F.\ Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/message.qpb.h \
   C:/Users/İbrahim\ F.\ Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_autogen/moc_predefs.h \
+=======
+C:/Users/İbrahim\ F.\ Yoğurtçu/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_autogen/include/moc_message.qpb.cpp: C:/Users/İbrahim\ F.\ Yoğurtçu/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/message.qpb.h \
+  C:/Users/İbrahim\ F.\ Yoğurtçu/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_autogen/moc_predefs.h \
+>>>>>>> 8e0bf03bf710e49b8dd4d040a9e8952fb22c9c2a
   C:/Qt/6.9.1/mingw_64/include/QtCore/q17memory.h \
   C:/Qt/6.9.1/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.9.1/mingw_64/include/QtCore/q20memory.h \
@@ -336,4 +341,8 @@ C:/Users/İbrahim\ F.\ Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
+<<<<<<< HEAD
   C:/Users/İbrahim\ F.\ Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_exports.qpb.h
+=======
+  C:/Users/İbrahim\ F.\ Yoğurtçu/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_exports.qpb.h
+>>>>>>> 8e0bf03bf710e49b8dd4d040a9e8952fb22c9c2a
