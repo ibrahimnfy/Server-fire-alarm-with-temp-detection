@@ -1,0 +1,501 @@
+Detecting compiler hash for triplet x64-windows...
+A suitable version of powershell-core was not found (required v7.2.24).
+Downloading https://github.com/PowerShell/PowerShell/releases/download/v7.2.24/PowerShell-7.2.24-win-x64.zip -> PowerShell-7.2.24-win-x64.zip
+Successfully downloaded PowerShell-7.2.24-win-x64.zip
+Extracting powershell-core...
+Compiler found: C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/cl.exe
+Detecting compiler hash for triplet x64-mingw-static...
+Compiler found: C:/Qt/Tools/mingw1310_64/bin/x86_64-w64-mingw32-g++.exe
+The following packages will be built and installed:
+  * abseil:x64-mingw-static@20250127.1#2
+  * abseil:x64-windows@20250127.1#2
+  * protobuf:x64-windows@5.29.3#1
+    protobuf:x64-mingw-static@5.29.3#1
+  * utf8-range:x64-mingw-static@5.29.3
+  * utf8-range:x64-windows@5.29.3
+  * vcpkg-cmake:x64-windows@2024-04-23
+  * vcpkg-cmake-config:x64-windows@2024-05-23
+Additional packages (*) will be modified to complete this operation.
+Restored 0 package(s) from C:\Users\İbrahim F. Yoğurtçu\AppData\Local\vcpkg\archives in 234 us. Use --debug to see more details.
+Installing 1/8 vcpkg-cmake-config:x64-windows@2024-05-23...
+Building vcpkg-cmake-config:x64-windows@2024-05-23...
+-- Installing: C:/vcpkg/packages/vcpkg-cmake-config_x64-windows/share/vcpkg-cmake-config/vcpkg_cmake_config_fixup.cmake
+-- Installing: C:/vcpkg/packages/vcpkg-cmake-config_x64-windows/share/vcpkg-cmake-config/vcpkg-port-config.cmake
+-- Installing: C:/vcpkg/packages/vcpkg-cmake-config_x64-windows/share/vcpkg-cmake-config/copyright
+-- Skipping post-build validation due to VCPKG_POLICY_EMPTY_PACKAGE
+Starting submission of vcpkg-cmake-config:x64-windows@2024-05-23 to 1 binary cache(s) in the background
+Elapsed time to handle vcpkg-cmake-config:x64-windows: 88.6 ms
+vcpkg-cmake-config:x64-windows package ABI: 6866be1396bb7233f1bfe89dd27905bcba6d74e76c38b534ade385a8515681d4
+Installing 2/8 vcpkg-cmake:x64-windows@2024-04-23...
+Building vcpkg-cmake:x64-windows@2024-04-23...
+-- Installing: C:/vcpkg/packages/vcpkg-cmake_x64-windows/share/vcpkg-cmake/vcpkg_cmake_configure.cmake
+-- Installing: C:/vcpkg/packages/vcpkg-cmake_x64-windows/share/vcpkg-cmake/vcpkg_cmake_build.cmake
+-- Installing: C:/vcpkg/packages/vcpkg-cmake_x64-windows/share/vcpkg-cmake/vcpkg_cmake_install.cmake
+-- Installing: C:/vcpkg/packages/vcpkg-cmake_x64-windows/share/vcpkg-cmake/vcpkg-port-config.cmake
+-- Installing: C:/vcpkg/packages/vcpkg-cmake_x64-windows/share/vcpkg-cmake/copyright
+-- Performing post-build validation
+Starting submission of vcpkg-cmake:x64-windows@2024-04-23 to 1 binary cache(s) in the background
+Elapsed time to handle vcpkg-cmake:x64-windows: 100 ms
+vcpkg-cmake:x64-windows package ABI: d8b61716e4183637bd57f5e6f67c156e9570f2b1bbc158e54624c4630e7c6969
+Completed submission of vcpkg-cmake-config:x64-windows@2024-05-23 to 1 binary cache(s) in 43 ms
+Installing 3/8 abseil:x64-mingw-static@20250127.1#2...
+Building abseil:x64-mingw-static@20250127.1#2...
+C:\vcpkg\triplets\community\x64-mingw-static.cmake: info: loaded community triplet from here. Community triplets are not built in the curated registry and are thus less likely to succeed.
+Downloading https://github.com/abseil/abseil-cpp/archive/20250127.1.tar.gz -> abseil-abseil-cpp-20250127.1.tar.gz
+Successfully downloaded abseil-abseil-cpp-20250127.1.tar.gz
+-- Extracting source C:/vcpkg/downloads/abseil-abseil-cpp-20250127.1.tar.gz
+-- Using source at C:/vcpkg/buildtrees/abseil/src/20250127.1-a0a219bf72.clean
+-- Configuring x64-mingw-static-dbg
+-- Configuring x64-mingw-static-rel
+-- Building x64-mingw-static-dbg
+-- Building x64-mingw-static-rel
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_absl_check.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_absl_log.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_absl_vlog_is_on.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_algorithm.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_algorithm_container.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_any.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_any_invocable.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_atomic_hook.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_bad_any_cast.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_bad_any_cast_impl.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_bad_optional_access.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_bad_variant_access.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_base.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_base_internal.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_bind_front.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_bits.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_bounded_utf8_length_sequence.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_btree.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_charset.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_check.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_city.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_civil_time.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_cleanup.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_cleanup_internal.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_common_policy_traits.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_compare.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_compressed_tuple.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_config.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_container_common.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_container_memory.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_cord.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_cord_internal.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_cordz_functions.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_cordz_handle.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_cordz_info.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_cordz_sample_token.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_cordz_statistics.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_cordz_update_scope.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_cordz_update_tracker.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_core_headers.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_crc32c.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_crc_cord_state.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_crc_cpu_detect.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_crc_internal.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_debugging.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_debugging_internal.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_decode_rust_punycode.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_demangle_internal.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_demangle_rust.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_die_if_null.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_dynamic_annotations.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_endian.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_errno_saver.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_examine_stack.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_exponential_biased.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_failure_signal_handler.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_fast_type_id.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_fixed_array.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_flags.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_flags_commandlineflag.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_flags_commandlineflag_internal.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_flags_config.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_flags_internal.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_flags_marshalling.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_flags_parse.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_flags_path_util.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_flags_private_handle_accessor.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_flags_program_name.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_flags_reflection.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_flags_usage.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_flags_usage_internal.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_flat_hash_map.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_flat_hash_set.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_function_ref.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_graphcycles_internal.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_has_ostream_operator.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_hash.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_hash_container_defaults.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_hash_function_defaults.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_hash_policy_traits.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_hashtable_debug.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_hashtable_debug_hooks.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_hashtablez_sampler.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_if_constexpr.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_inlined_vector.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_inlined_vector_internal.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_int128.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_kernel_timeout_internal.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_layout.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_leak_check.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_log.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_log_entry.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_log_flags.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_log_globals.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_log_initialize.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_log_internal_append_truncated.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_log_internal_check_impl.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_log_internal_check_op.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_log_internal_conditions.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_log_internal_config.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_log_internal_flags.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_log_internal_fnmatch.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_log_internal_format.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_log_internal_globals.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_log_internal_log_impl.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_log_internal_log_sink_set.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_log_internal_message.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_log_internal_nullguard.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_log_internal_nullstream.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_log_internal_proto.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_log_internal_strip.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_log_internal_structured.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_log_internal_structured_proto.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_log_internal_voidify.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_log_severity.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_log_sink.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_log_sink_registry.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_log_streamer.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_log_structured.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_low_level_hash.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_malloc_internal.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_memory.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_meta.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_no_destructor.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_node_hash_map.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_node_hash_set.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_node_slot_policy.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_non_temporal_arm_intrinsics.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_non_temporal_memcpy.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_nullability.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_numeric.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_numeric_representation.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_optional.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_overload.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_periodic_sampler.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_poison.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_prefetch.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_pretty_function.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_random_bit_gen_ref.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_random_distributions.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_random_internal_distribution_caller.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_random_internal_distribution_test_util.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_random_internal_fast_uniform_bits.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_random_internal_fastmath.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_random_internal_generate_real.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_random_internal_iostream_state_saver.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_random_internal_mock_helpers.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_random_internal_nonsecure_base.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_random_internal_pcg_engine.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_random_internal_platform.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_random_internal_pool_urbg.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_random_internal_randen.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_random_internal_randen_engine.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_random_internal_randen_hwaes.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_random_internal_randen_hwaes_impl.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_random_internal_randen_slow.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_random_internal_salted_seed_seq.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_random_internal_seed_material.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_random_internal_traits.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_random_internal_uniform_helper.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_random_internal_wide_multiply.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_random_random.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_random_seed_gen_exception.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_random_seed_sequences.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_raw_hash_map.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_raw_hash_set.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_raw_logging_internal.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_sample_recorder.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_scoped_set_env.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_span.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_spinlock_wait.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_stacktrace.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_status.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_statusor.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_str_format.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_str_format_internal.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_strerror.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_string_view.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_strings.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_strings_internal.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_symbolize.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_synchronization.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_throw_delegate.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_time.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_time_zone.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_tracing_internal.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_type_traits.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_utf8_for_code_point.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_utility.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_variant.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_vlog_config_internal.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/lib/pkgconfig/absl_vlog_is_on.pc
+Downloading msys2-mingw-w64-x86_64-pkgconf-1~2.4.3-1-any.pkg.tar.zst, trying https://mirror.msys2.org/mingw/mingw64/mingw-w64-x86_64-pkgconf-1~2.4.3-1-any.pkg.tar.zst
+Successfully downloaded msys2-mingw-w64-x86_64-pkgconf-1~2.4.3-1-any.pkg.tar.zst
+Downloading msys2-msys2-runtime-3.6.2-2-x86_64.pkg.tar.zst, trying https://mirror.msys2.org/msys/x86_64/msys2-runtime-3.6.2-2-x86_64.pkg.tar.zst
+Successfully downloaded msys2-msys2-runtime-3.6.2-2-x86_64.pkg.tar.zst
+-- Using msys root at C:/vcpkg/downloads/tools/msys2/9272adbcaf19caef
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_absl_check.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_absl_log.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_absl_vlog_is_on.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_algorithm.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_algorithm_container.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_any.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_any_invocable.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_atomic_hook.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_bad_any_cast.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_bad_any_cast_impl.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_bad_optional_access.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_bad_variant_access.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_base.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_base_internal.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_bind_front.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_bits.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_bounded_utf8_length_sequence.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_btree.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_charset.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_check.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_city.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_civil_time.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_cleanup.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_cleanup_internal.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_common_policy_traits.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_compare.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_compressed_tuple.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_config.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_container_common.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_container_memory.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_cord.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_cord_internal.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_cordz_functions.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_cordz_handle.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_cordz_info.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_cordz_sample_token.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_cordz_statistics.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_cordz_update_scope.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_cordz_update_tracker.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_core_headers.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_crc32c.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_crc_cord_state.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_crc_cpu_detect.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_crc_internal.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_debugging.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_debugging_internal.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_decode_rust_punycode.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_demangle_internal.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_demangle_rust.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_die_if_null.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_dynamic_annotations.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_endian.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_errno_saver.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_examine_stack.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_exponential_biased.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_failure_signal_handler.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_fast_type_id.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_fixed_array.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_flags.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_flags_commandlineflag.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_flags_commandlineflag_internal.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_flags_config.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_flags_internal.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_flags_marshalling.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_flags_parse.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_flags_path_util.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_flags_private_handle_accessor.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_flags_program_name.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_flags_reflection.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_flags_usage.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_flags_usage_internal.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_flat_hash_map.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_flat_hash_set.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_function_ref.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_graphcycles_internal.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_has_ostream_operator.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_hash.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_hash_container_defaults.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_hash_function_defaults.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_hash_policy_traits.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_hashtable_debug.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_hashtable_debug_hooks.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_hashtablez_sampler.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_if_constexpr.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_inlined_vector.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_inlined_vector_internal.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_int128.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_kernel_timeout_internal.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_layout.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_leak_check.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_log.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_log_entry.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_log_flags.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_log_globals.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_log_initialize.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_log_internal_append_truncated.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_log_internal_check_impl.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_log_internal_check_op.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_log_internal_conditions.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_log_internal_config.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_log_internal_flags.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_log_internal_fnmatch.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_log_internal_format.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_log_internal_globals.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_log_internal_log_impl.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_log_internal_log_sink_set.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_log_internal_message.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_log_internal_nullguard.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_log_internal_nullstream.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_log_internal_proto.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_log_internal_strip.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_log_internal_structured.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_log_internal_structured_proto.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_log_internal_voidify.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_log_severity.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_log_sink.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_log_sink_registry.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_log_streamer.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_log_structured.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_low_level_hash.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_malloc_internal.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_memory.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_meta.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_no_destructor.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_node_hash_map.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_node_hash_set.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_node_slot_policy.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_non_temporal_arm_intrinsics.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_non_temporal_memcpy.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_nullability.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_numeric.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_numeric_representation.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_optional.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_overload.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_periodic_sampler.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_poison.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_prefetch.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_pretty_function.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_random_bit_gen_ref.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_random_distributions.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_random_internal_distribution_caller.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_random_internal_distribution_test_util.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_random_internal_fast_uniform_bits.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_random_internal_fastmath.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_random_internal_generate_real.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_random_internal_iostream_state_saver.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_random_internal_mock_helpers.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_random_internal_nonsecure_base.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_random_internal_pcg_engine.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_random_internal_platform.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_random_internal_pool_urbg.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_random_internal_randen.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_random_internal_randen_engine.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_random_internal_randen_hwaes.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_random_internal_randen_hwaes_impl.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_random_internal_randen_slow.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_random_internal_salted_seed_seq.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_random_internal_seed_material.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_random_internal_traits.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_random_internal_uniform_helper.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_random_internal_wide_multiply.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_random_random.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_random_seed_gen_exception.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_random_seed_sequences.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_raw_hash_map.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_raw_hash_set.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_raw_logging_internal.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_sample_recorder.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_scoped_set_env.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_span.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_spinlock_wait.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_stacktrace.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_status.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_statusor.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_str_format.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_str_format_internal.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_strerror.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_string_view.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_strings.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_strings_internal.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_symbolize.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_synchronization.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_throw_delegate.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_time.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_time_zone.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_tracing_internal.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_type_traits.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_utf8_for_code_point.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_utility.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_variant.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_vlog_config_internal.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/abseil_x64-mingw-static/debug/lib/pkgconfig/absl_vlog_is_on.pc
+-- Installing: C:/vcpkg/packages/abseil_x64-mingw-static/share/abseil/copyright
+-- Performing post-build validation
+Starting submission of abseil:x64-mingw-static@20250127.1#2 to 1 binary cache(s) in the background
+Elapsed time to handle abseil:x64-mingw-static: 2.3 min
+abseil:x64-mingw-static package ABI: 633beb42483925ee19ab06c306082731433a2119aaed84a46338c8e4ffbeea65
+Completed submission of vcpkg-cmake:x64-windows@2024-04-23 to 1 binary cache(s) in 36.9 ms
+Installing 4/8 utf8-range:x64-mingw-static@5.29.3...
+Building utf8-range:x64-mingw-static@5.29.3...
+C:\vcpkg\triplets\community\x64-mingw-static.cmake: info: loaded community triplet from here. Community triplets are not built in the curated registry and are thus less likely to succeed.
+Downloading https://github.com/protocolbuffers/protobuf/archive/v5.29.3.tar.gz -> protocolbuffers-protobuf-v5.29.3.tar.gz
+Successfully downloaded protocolbuffers-protobuf-v5.29.3.tar.gz
+-- Extracting source C:/vcpkg/downloads/protocolbuffers-protobuf-v5.29.3.tar.gz
+-- Applying patch fix-cmake.patch
+-- Using source at C:/vcpkg/buildtrees/utf8-range/src/v5.29.3-03b5e8031c.clean
+-- Configuring x64-mingw-static
+-- Building x64-mingw-static-dbg
+-- Building x64-mingw-static-rel
+-- Fixing pkgconfig file: C:/vcpkg/packages/utf8-range_x64-mingw-static/lib/pkgconfig/utf8_range.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.4.3-1-any.pkg.tar.zst
+-- Using cached msys2-msys2-runtime-3.6.2-2-x86_64.pkg.tar.zst
+-- Using msys root at C:/vcpkg/downloads/tools/msys2/9272adbcaf19caef
+-- Fixing pkgconfig file: C:/vcpkg/packages/utf8-range_x64-mingw-static/debug/lib/pkgconfig/utf8_range.pc
+-- Installing: C:/vcpkg/packages/utf8-range_x64-mingw-static/share/utf8-range/copyright
+-- Performing post-build validation
+Starting submission of utf8-range:x64-mingw-static@5.29.3 to 1 binary cache(s) in the background
+Elapsed time to handle utf8-range:x64-mingw-static: 29 s
+utf8-range:x64-mingw-static package ABI: ab27e96bfbd1f3aeb081d28ea7a64c58b4d126da88c8c150aa854541065e7fc3
+Completed submission of abseil:x64-mingw-static@20250127.1#2 to 1 binary cache(s) in 1.8 s
+Installing 5/8 abseil:x64-windows@20250127.1#2...
+Building abseil:x64-windows@20250127.1#2...
+-- Using cached abseil-abseil-cpp-20250127.1.tar.gz
+-- Cleaning sources at C:/vcpkg/buildtrees/abseil/src/20250127.1-a0a219bf72.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source C:/vcpkg/downloads/abseil-abseil-cpp-20250127.1.tar.gz
+-- Using source at C:/vcpkg/buildtrees/abseil/src/20250127.1-a0a219bf72.clean
+-- Configuring x64-windows-dbg
+CMake Error at scripts/cmake/vcpkg_execute_required_process.cmake:127 (message):
+    Command failed: C:/vcpkg/downloads/tools/cmake-3.30.1-windows/cmake-3.30.1-windows-i386/bin/cmake.exe C:/vcpkg/buildtrees/abseil/src/20250127.1-a0a219bf72.clean -G Ninja -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=C:/vcpkg/packages/abseil_x64-windows/debug -DFETCHCONTENT_FULLY_DISCONNECTED=ON -DABSL_PROPAGATE_CXX_STD=ON -DCMAKE_MAKE_PROGRAM=C:/vcpkg/downloads/tools/ninja/1.12.1-windows/ninja.exe -DBUILD_SHARED_LIBS=ON -DVCPKG_CHAINLOAD_TOOLCHAIN_FILE=C:/vcpkg/scripts/toolchains/windows.cmake -DVCPKG_TARGET_TRIPLET=x64-windows -DVCPKG_SET_CHARSET_FLAG=ON -DVCPKG_PLATFORM_TOOLSET=v143 -DCMAKE_EXPORT_NO_PACKAGE_REGISTRY=ON -DCMAKE_FIND_PACKAGE_NO_PACKAGE_REGISTRY=ON -DCMAKE_FIND_PACKAGE_NO_SYSTEM_PACKAGE_REGISTRY=ON -DCMAKE_INSTALL_SYSTEM_RUNTIME_LIBS_SKIP=TRUE -DCMAKE_VERBOSE_MAKEFILE=ON -DVCPKG_APPLOCAL_DEPS=OFF -DCMAKE_TOOLCHAIN_FILE=C:/vcpkg/scripts/buildsystems/vcpkg.cmake -DCMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION=ON -DVCPKG_CXX_FLAGS= -DVCPKG_CXX_FLAGS_RELEASE= -DVCPKG_CXX_FLAGS_DEBUG= -DVCPKG_C_FLAGS= -DVCPKG_C_FLAGS_RELEASE= -DVCPKG_C_FLAGS_DEBUG= -DVCPKG_CRT_LINKAGE=dynamic -DVCPKG_LINKER_FLAGS= -DVCPKG_LINKER_FLAGS_RELEASE= -DVCPKG_LINKER_FLAGS_DEBUG= -DVCPKG_TARGET_ARCHITECTURE=x64 -DCMAKE_INSTALL_LIBDIR:STRING=lib -DCMAKE_INSTALL_BINDIR:STRING=bin -D_VCPKG_ROOT_DIR=C:/vcpkg "-D_VCPKG_INSTALLED_DIR=C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/vcpkg_installed" -DVCPKG_MANIFEST_INSTALL=OFF
+    Working Directory: C:/vcpkg/buildtrees/abseil/x64-windows-dbg
+    Error code: 1
+    See logs for more information:
+      C:\vcpkg\buildtrees\abseil\config-x64-windows-dbg-CMakeCache.txt.log
+      C:\vcpkg\buildtrees\abseil\config-x64-windows-dbg-CMakeConfigureLog.yaml.log
+      C:\vcpkg\buildtrees\abseil\config-x64-windows-dbg-out.log
+      C:\vcpkg\buildtrees\abseil\config-x64-windows-dbg-err.log
+
+Call Stack (most recent call first):
+  C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/vcpkg_installed/x64-windows/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:287 (vcpkg_execute_required_process)
+  ports/abseil/portfile.cmake:32 (vcpkg_cmake_configure)
+  scripts/ports.cmake:206 (include)
+
+
+error: building abseil:x64-windows failed with: BUILD_FAILED
+See https://learn.microsoft.com/vcpkg/troubleshoot/build-failures?WT.mc_id=vcpkg_inproduct_cli for more information.
+Elapsed time to handle abseil:x64-windows: 2.4 s
+Please ensure you're using the latest port files with `git pull` and `vcpkg update`.
+Then check for known issues at:
+  https://github.com/microsoft/vcpkg/issues?q=is%3Aissue+is%3Aopen+in%3Atitle+abseil
+You can submit a new issue at:
+  https://github.com/microsoft/vcpkg/issues/new?title=[abseil]+Build+error+on+x64-windows&body=Copy%20issue%20body%20from%20C%3A%2FUsers%2F%C4%B0brahim%20F.%20Yo%C4%9Furt%C3%A7u%2FDocuments%2Fprotoc-deneme%2Fbuild%2FDesktop_Qt_6_9_1_MinGW_64_bit-Debug%2Fvcpkg_installed%2Fvcpkg%2Fissue_body.md
+
+Completed submission of utf8-range:x64-mingw-static@5.29.3 to 1 binary cache(s) in 65.3 ms
