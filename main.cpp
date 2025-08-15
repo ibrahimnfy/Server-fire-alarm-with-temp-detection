@@ -1,13 +1,10 @@
-<<<<<<< HEAD
 #include <QApplication>
 #include "mainwindow.h"
-=======
 
 #include <QApplication>
 #include <message.qpb.h>
 #include <QCommandLineOption>
 #include <QCommandLineParser>
->>>>>>> 8e0bf03bf710e49b8dd4d040a9e8952fb22c9c2a
 #include "testclient.h"
 
 int main(int argc, char *argv[])
@@ -15,10 +12,8 @@ int main(int argc, char *argv[])
     QApplication a(argc, argv);
 
 
-<<<<<<< HEAD
     MainWindow w;
     w.show();
-=======
 
     QCommandLineParser parser;
     parser.setApplicationDescription("TestClient application using Protobuf");
@@ -58,7 +53,6 @@ int main(int argc, char *argv[])
     // İstemci başlat
     TestClient client{name, typeID};
     client.connectAndSend("127.0.0.1", 12345);  // Burada parametre geçiliyor olmalı
->>>>>>> 8e0bf03bf710e49b8dd4d040a9e8952fb22c9c2a
 
     return a.exec();
 }

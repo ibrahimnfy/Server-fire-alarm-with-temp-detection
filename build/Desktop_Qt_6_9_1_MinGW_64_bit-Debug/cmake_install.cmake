@@ -1,16 +1,8 @@
-<<<<<<< HEAD
 # Install script for directory: C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
   set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/protoc-deneme")
-=======
-# Install script for directory: C:/Users/İbrahim F. Yoğurtçu/Documents/Client
-
-# Set the install prefix
-if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Client")
->>>>>>> 8e0bf03bf710e49b8dd4d040a9e8952fb22c9c2a
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -46,19 +38,11 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-<<<<<<< HEAD
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protoc-deneme.exe")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/protoc-deneme.exe" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/protoc-deneme.exe")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "C:/Qt/Tools/mingw1310_64/bin/strip.exe" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/protoc-deneme.exe")
-=======
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/İbrahim F. Yoğurtçu/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/Client.exe")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/Client.exe" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/Client.exe")
-    if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "C:/Qt/Tools/mingw1310_64/bin/strip.exe" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/Client.exe")
->>>>>>> 8e0bf03bf710e49b8dd4d040a9e8952fb22c9c2a
     endif()
   endif()
 endif()
@@ -78,10 +62,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-<<<<<<< HEAD
   file(WRITE "C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/${CMAKE_INSTALL_MANIFEST}"
-=======
-  file(WRITE "C:/Users/İbrahim F. Yoğurtçu/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/${CMAKE_INSTALL_MANIFEST}"
->>>>>>> 8e0bf03bf710e49b8dd4d040a9e8952fb22c9c2a
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

@@ -1,161 +1,23 @@
 # ninja log v6
-<<<<<<< HEAD
-671	2643	7766146120447373	CMakeFiles/protoc-deneme.dir/protoc-deneme_autogen/mocs_compilation.cpp.obj	eef02090a82eb33b
-40	671	7766146119867358	protoc-deneme_autogen/timestamp	fccd93ef6083e86
-40	671	7766146119867358	C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protoc-deneme_autogen/timestamp	fccd93ef6083e86
-25	68	7762685090353640	C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/message_qtprotoreg.cpp	7cef27fd68b1b80b
-40	671	7766146119867358	protoc-deneme_autogen/mocs_compilation.cpp	fccd93ef6083e86
-676	2856	7766146120487359	CMakeFiles/protoc-deneme.dir/mainwindow.cpp.obj	aeaa1f0f01b8e99a
-674	2487	7766146120467369	CMakeFiles/protoc-deneme.dir/main.cpp.obj	dc9b5872ea215ec3
-40	671	7766146119867358	C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protoc-deneme_autogen/mocs_compilation.cpp	fccd93ef6083e86
-2856	4090	7766146142297365	protoc-deneme.exe	c63e8eca08ee3ab5
-678	2677	7766146120507360	CMakeFiles/protoc-deneme.dir/server.cpp.obj	58a1d865ca9b9b9a
-24	1099	7761841859014641	build.ninja	36a8d49df25628ac
-25	68	7762685090353640	protobuf_messages_exports.qpb.h	7cef27fd68b1b80b
-25	68	7762685090353640	message.qpb.h	7cef27fd68b1b80b
-25	68	7762685090353640	message.qpb.cpp	7cef27fd68b1b80b
-26	55	7761670901171978	CMakeFiles/clean.additional	baedbe210acaa455
-25	68	7762685090353640	message_qtprotoreg.cpp	7cef27fd68b1b80b
-25	68	7762685090353640	C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/message.qpb.h	7cef27fd68b1b80b
-25	68	7762685090353640	C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/message.qpb.cpp	7cef27fd68b1b80b
-25	68	7762685090353640	C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_exports.qpb.h	7cef27fd68b1b80b
-69	147	7762685090403449	protobuf_messages_qtprotoreg_autogen/mocs_compilation.cpp	72f6292231aef0de
-69	147	7762685090403449	protobuf_messages_qtprotoreg_autogen/timestamp	72f6292231aef0de
-69	147	7762685090403449	C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_qtprotoreg_autogen/timestamp	72f6292231aef0de
-664	703	7761841661466618	CMakeFiles/protoc-deneme.dir/testclient.cpp.obj	9ba403bdf0404aa
-69	147	7762685090403449	C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_qtprotoreg_autogen/mocs_compilation.cpp	72f6292231aef0de
-6705	7914	7762685168739920	libprotobuf_messages.a	39fe5e9089660bd2
-232	280	7761670904301986	CMakeFiles/protobuf_messages_qtprotoreg.dir/protobuf_messages_qtprotoreg_autogen/mocs_compilation.cpp.obj	5b8b7ae566fc0e21
-147	2669	7762685091193440	CMakeFiles/protobuf_messages_qtprotoreg.dir/message_qtprotoreg.cpp.obj	8f69ce35ebb28492
-2669	3143	7762685116409066	protobuf_messages_autogen/timestamp	8c1334c1b939fcd2
-2669	3143	7762685116409066	protobuf_messages_autogen/mocs_compilation.cpp	8c1334c1b939fcd2
-2669	3143	7762685116409066	C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_autogen/timestamp	8c1334c1b939fcd2
-6705	7914	7762685168739920	protobuf_messages.dll	39fe5e9089660bd2
-2669	3143	7762685116409066	C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_autogen/mocs_compilation.cpp	8c1334c1b939fcd2
-3327	3365	7761670935255393	CMakeFiles/protobuf_messages.dir/protobuf_messages_autogen/mocs_compilation.cpp.obj	dd92174474e053e3
-3143	6705	7762685121149610	CMakeFiles/protobuf_messages.dir/message.qpb.cpp.obj	1b5e77556347951d
-56	65	7761670901471981	clean	577b940aee94fbd7
-26	139	7766148254146757	protoc-deneme_autogen/timestamp	fccd93ef6083e86
-26	139	7766148254146757	protoc-deneme_autogen/mocs_compilation.cpp	fccd93ef6083e86
-26	139	7766148254146757	C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protoc-deneme_autogen/timestamp	fccd93ef6083e86
-26	139	7766148254146757	C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protoc-deneme_autogen/mocs_compilation.cpp	fccd93ef6083e86
-139	2043	7766148255285933	CMakeFiles/protoc-deneme.dir/mainwindow.cpp.obj	aeaa1f0f01b8e99a
-2043	3260	7766148274326312	protoc-deneme.exe	c63e8eca08ee3ab5
-27	144	7766148772979906	protoc-deneme_autogen/timestamp	fccd93ef6083e86
-27	144	7766148772979906	protoc-deneme_autogen/mocs_compilation.cpp	fccd93ef6083e86
-27	144	7766148772979906	C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protoc-deneme_autogen/timestamp	fccd93ef6083e86
-27	144	7766148772979906	C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protoc-deneme_autogen/mocs_compilation.cpp	fccd93ef6083e86
-145	2115	7766148774160826	CMakeFiles/protoc-deneme.dir/mainwindow.cpp.obj	aeaa1f0f01b8e99a
-2115	3268	7766148793859550	protoc-deneme.exe	c63e8eca08ee3ab5
-27	891	7766187375501345	protoc-deneme_autogen/timestamp	fccd93ef6083e86
-27	891	7766187375501345	protoc-deneme_autogen/mocs_compilation.cpp	fccd93ef6083e86
-27	891	7766187375501345	C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protoc-deneme_autogen/timestamp	fccd93ef6083e86
-27	891	7766187375501345	C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protoc-deneme_autogen/mocs_compilation.cpp	fccd93ef6083e86
-896	3087	7766187376361347	CMakeFiles/protoc-deneme.dir/main.cpp.obj	dc9b5872ea215ec3
-893	3273	7766187376331353	CMakeFiles/protoc-deneme.dir/protoc-deneme_autogen/mocs_compilation.cpp.obj	eef02090a82eb33b
-899	3412	7766187376391344	CMakeFiles/protoc-deneme.dir/mainwindow.cpp.obj	aeaa1f0f01b8e99a
-3412	4538	7766187401521324	protoc-deneme.exe	c63e8eca08ee3ab5
-25	145	7766189101169469	protoc-deneme_autogen/timestamp	fccd93ef6083e86
-25	145	7766189101169469	protoc-deneme_autogen/mocs_compilation.cpp	fccd93ef6083e86
-25	145	7766189101169469	C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protoc-deneme_autogen/timestamp	fccd93ef6083e86
-25	145	7766189101169469	C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protoc-deneme_autogen/mocs_compilation.cpp	fccd93ef6083e86
-146	2079	7766189102369474	CMakeFiles/protoc-deneme.dir/mainwindow.cpp.obj	aeaa1f0f01b8e99a
-2079	3242	7766189121709492	protoc-deneme.exe	c63e8eca08ee3ab5
-43	786	7766869757220216	protoc-deneme_autogen/timestamp	fccd93ef6083e86
-43	786	7766869757220216	protoc-deneme_autogen/mocs_compilation.cpp	fccd93ef6083e86
-43	786	7766869757220216	C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protoc-deneme_autogen/timestamp	fccd93ef6083e86
-43	786	7766869757220216	C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protoc-deneme_autogen/mocs_compilation.cpp	fccd93ef6083e86
-790	3555	7766869757920174	CMakeFiles/protoc-deneme.dir/main.cpp.obj	dc9b5872ea215ec3
-787	3633	7766869757890549	CMakeFiles/protoc-deneme.dir/protoc-deneme_autogen/mocs_compilation.cpp.obj	eef02090a82eb33b
-26	1145	7766870728475946	protoc-deneme_autogen/timestamp	fccd93ef6083e86
-26	1145	7766870728475946	protoc-deneme_autogen/mocs_compilation.cpp	fccd93ef6083e86
-26	1145	7766870728475946	C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protoc-deneme_autogen/timestamp	fccd93ef6083e86
-26	1145	7766870728475946	C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protoc-deneme_autogen/mocs_compilation.cpp	fccd93ef6083e86
-1150	4323	7766870729475921	CMakeFiles/protoc-deneme.dir/main.cpp.obj	dc9b5872ea215ec3
-1146	4648	7766870729435920	CMakeFiles/protoc-deneme.dir/protoc-deneme_autogen/mocs_compilation.cpp.obj	eef02090a82eb33b
-1158	4681	7766870729555938	CMakeFiles/protoc-deneme.dir/server.cpp.obj	58a1d865ca9b9b9a
-25	153	7766870946590919	protoc-deneme_autogen/timestamp	fccd93ef6083e86
-25	153	7766870946590919	protoc-deneme_autogen/mocs_compilation.cpp	fccd93ef6083e86
-25	153	7766870946590919	C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protoc-deneme_autogen/timestamp	fccd93ef6083e86
-25	153	7766870946590919	C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protoc-deneme_autogen/mocs_compilation.cpp	fccd93ef6083e86
-154	2233	7766870947880778	CMakeFiles/protoc-deneme.dir/mainwindow.cpp.obj	aeaa1f0f01b8e99a
-2233	3673	7766870968674492	protoc-deneme.exe	c63e8eca08ee3ab5
-26	148	7766873314629526	protoc-deneme_autogen/timestamp	fccd93ef6083e86
-26	148	7766873314629526	protoc-deneme_autogen/mocs_compilation.cpp	fccd93ef6083e86
-26	148	7766873314629526	C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protoc-deneme_autogen/timestamp	fccd93ef6083e86
-26	148	7766873314629526	C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protoc-deneme_autogen/mocs_compilation.cpp	fccd93ef6083e86
-149	2392	7766873315859523	CMakeFiles/protoc-deneme.dir/mainwindow.cpp.obj	aeaa1f0f01b8e99a
-2392	3685	7766873338289540	protoc-deneme.exe	c63e8eca08ee3ab5
-13	132	7766878543935307	protoc-deneme_autogen/timestamp	fccd93ef6083e86
-13	132	7766878543935307	protoc-deneme_autogen/mocs_compilation.cpp	fccd93ef6083e86
-13	132	7766878543935307	C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protoc-deneme_autogen/timestamp	fccd93ef6083e86
-13	132	7766878543935307	C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protoc-deneme_autogen/mocs_compilation.cpp	fccd93ef6083e86
-133	2445	7766878545145174	CMakeFiles/protoc-deneme.dir/mainwindow.cpp.obj	aeaa1f0f01b8e99a
-2445	3792	7766878568265167	protoc-deneme.exe	c63e8eca08ee3ab5
-14	163	7766999310391106	protoc-deneme_autogen/timestamp	fccd93ef6083e86
-14	163	7766999310391106	protoc-deneme_autogen/mocs_compilation.cpp	fccd93ef6083e86
-14	163	7766999310391106	C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protoc-deneme_autogen/timestamp	fccd93ef6083e86
-14	163	7766999310391106	C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protoc-deneme_autogen/mocs_compilation.cpp	fccd93ef6083e86
-164	2322	7766999311891099	CMakeFiles/protoc-deneme.dir/mainwindow.cpp.obj	aeaa1f0f01b8e99a
-2322	3496	7766999333471502	protoc-deneme.exe	c63e8eca08ee3ab5
-13	171	7768543840676340	protoc-deneme_autogen/timestamp	fccd93ef6083e86
-13	171	7768543840676340	protoc-deneme_autogen/mocs_compilation.cpp	fccd93ef6083e86
-13	171	7768543840676340	C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protoc-deneme_autogen/timestamp	fccd93ef6083e86
-13	171	7768543840676340	C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protoc-deneme_autogen/mocs_compilation.cpp	fccd93ef6083e86
-177	2299	7768543842316322	CMakeFiles/protoc-deneme.dir/server.cpp.obj	58a1d865ca9b9b9a
-175	2321	7768543842286321	CMakeFiles/protoc-deneme.dir/mainwindow.cpp.obj	aeaa1f0f01b8e99a
-2321	3781	7768543863756331	protoc-deneme.exe	c63e8eca08ee3ab5
-=======
-237	357	7767072062085937	Client_autogen/timestamp	8b25768c72da291f
-32	120	7767072060035939	protobuf_messages_qtprotoreg_autogen/timestamp	1fcb594f937b0e6c
-18	61	7767065859501097	C:/Users/İbrahim F. Yoğurtçu/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_exports.qpb.h	a008186415ed6cc5
-21	1035	7767087039053331	build.ninja	1d6aa8ef1d9124c1
-18	61	7767065859501097	protobuf_messages_exports.qpb.h	a008186415ed6cc5
-18	61	7767065859501097	C:/Users/İbrahim F. Yoğurtçu/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/message.qpb.h	a008186415ed6cc5
-20	38	7767065782961083	CMakeFiles/clean.additional	baedbe210acaa455
-18	61	7767065859501097	message_qtprotoreg.cpp	a008186415ed6cc5
-18	61	7767065859501097	message.qpb.h	a008186415ed6cc5
-18	61	7767065859501097	message.qpb.cpp	a008186415ed6cc5
-120	237	7767072060915936	C:/Users/İbrahim F. Yoğurtçu/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_autogen/timestamp	e3588f325819d814
-18	61	7767065859501097	C:/Users/İbrahim F. Yoğurtçu/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/message.qpb.cpp	a008186415ed6cc5
-18	61	7767065859501097	C:/Users/İbrahim F. Yoğurtçu/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/message_qtprotoreg.cpp	a008186415ed6cc5
-32	120	7767072060035939	C:/Users/İbrahim F. Yoğurtçu/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_qtprotoreg_autogen/timestamp	1fcb594f937b0e6c
-32	120	7767072060035939	protobuf_messages_qtprotoreg_autogen/mocs_compilation.cpp	1fcb594f937b0e6c
-357	2337	7767072063285938	CMakeFiles/Client.dir/mainwindow.cpp.obj	637cc950de84e0d5
-32	120	7767072060035939	C:/Users/İbrahim F. Yoğurtçu/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_qtprotoreg_autogen/mocs_compilation.cpp	1fcb594f937b0e6c
-180	216	7767065860751104	CMakeFiles/protobuf_messages_qtprotoreg.dir/protobuf_messages_qtprotoreg_autogen/mocs_compilation.cpp.obj	83befd9ccacb9417
-182	2570	7767065860771096	CMakeFiles/protobuf_messages_qtprotoreg.dir/message_qtprotoreg.cpp.obj	9434b1b6a3afb0c8
-120	237	7767072060915936	protobuf_messages_autogen/timestamp	e3588f325819d814
-120	237	7767072060915936	protobuf_messages_autogen/mocs_compilation.cpp	e3588f325819d814
-7524	9520	7767065934201088	CMakeFiles/Client.dir/testclient.cpp.obj	aa3e402d1f612afc
-120	237	7767072060915936	C:/Users/İbrahim F. Yoğurtçu/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_autogen/mocs_compilation.cpp	e3588f325819d814
-3057	3098	7767065889521093	CMakeFiles/protobuf_messages.dir/protobuf_messages_autogen/mocs_compilation.cpp.obj	32dbaadab115d8b4
-3061	5686	7767065889561214	CMakeFiles/protobuf_messages.dir/message.qpb.cpp.obj	35446666fcf62d67
-5686	6880	7767065927671076	protobuf_messages.dll	fe33eb3b0cfb497f
-5686	6880	7767065927671076	libprotobuf_messages.a	fe33eb3b0cfb497f
-237	357	7767072062085937	Client_autogen/mocs_compilation.cpp	8b25768c72da291f
-38	46	7767065783140071	clean	577b940aee94fbd7
-237	357	7767072062085937	C:/Users/İbrahim F. Yoğurtçu/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/Client_autogen/timestamp	8b25768c72da291f
-237	357	7767072062085937	C:/Users/İbrahim F. Yoğurtçu/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/Client_autogen/mocs_compilation.cpp	8b25768c72da291f
-7518	9639	7767065934131087	CMakeFiles/Client.dir/Client_autogen/mocs_compilation.cpp.obj	91ced2e7e17c21
-7520	9602	7767065934161096	CMakeFiles/Client.dir/main.cpp.obj	3474abfedc515939
-2337	3770	7767072083085950	Client.exe	9a08f36925794e02
-8	869	7767087039053331	build.ninja	1d6aa8ef1d9124c1
-25	102	7767087040213328	protobuf_messages_qtprotoreg_autogen/timestamp	1fcb594f937b0e6c
-25	102	7767087040213328	protobuf_messages_qtprotoreg_autogen/mocs_compilation.cpp	1fcb594f937b0e6c
-25	102	7767087040213328	C:/Users/İbrahim F. Yoğurtçu/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_qtprotoreg_autogen/timestamp	1fcb594f937b0e6c
-25	102	7767087040213328	C:/Users/İbrahim F. Yoğurtçu/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_qtprotoreg_autogen/mocs_compilation.cpp	1fcb594f937b0e6c
-102	196	7767087040983324	protobuf_messages_autogen/timestamp	e3588f325819d814
-102	196	7767087040983324	protobuf_messages_autogen/mocs_compilation.cpp	e3588f325819d814
-102	196	7767087040983324	C:/Users/İbrahim F. Yoğurtçu/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_autogen/timestamp	e3588f325819d814
-102	196	7767087040983324	C:/Users/İbrahim F. Yoğurtçu/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_autogen/mocs_compilation.cpp	e3588f325819d814
-196	839	7767087047793333	Client_autogen/timestamp	8b25768c72da291f
-196	839	7767087047793333	Client_autogen/mocs_compilation.cpp	8b25768c72da291f
-196	839	7767087047793333	C:/Users/İbrahim F. Yoğurtçu/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/Client_autogen/timestamp	8b25768c72da291f
-196	839	7767087047793333	C:/Users/İbrahim F. Yoğurtçu/Documents/Client/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/Client_autogen/mocs_compilation.cpp	8b25768c72da291f
-846	4336	7767087048423331	CMakeFiles/Client.dir/testclient.cpp.obj	84d13eb939823e56
-841	4343	7767087048373322	CMakeFiles/Client.dir/main.cpp.obj	7c6b896fb8157f0b
-839	4371	7767087048353325	CMakeFiles/Client.dir/Client_autogen/mocs_compilation.cpp.obj	b8737c3584d1ee28
-843	4459	7767087048403329	CMakeFiles/Client.dir/mainwindow.cpp.obj	664e6434a3af2110
-4459	5549	7767087084553337	Client.exe	fe8193ad5dcd0d44
->>>>>>> 8e0bf03bf710e49b8dd4d040a9e8952fb22c9c2a
+20	325	7769416283885316	message.qpb.h	9036223fea9b5cef
+20	325	7769416283885316	message.qpb.cpp	9036223fea9b5cef
+20	325	7769416283885316	protobuf_messages_exports.qpb.h	9036223fea9b5cef
+20	325	7769416283885316	message_qtprotoreg.cpp	9036223fea9b5cef
+20	325	7769416283885316	C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/message.qpb.h	9036223fea9b5cef
+20	325	7769416283885316	C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/message.qpb.cpp	9036223fea9b5cef
+20	325	7769416283885316	C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_exports.qpb.h	9036223fea9b5cef
+20	325	7769416283885316	C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/message_qtprotoreg.cpp	9036223fea9b5cef
+326	502	7769416285255310	protobuf_messages_qtprotoreg_autogen/timestamp	72f6292231aef0de
+326	502	7769416285255310	protobuf_messages_qtprotoreg_autogen/mocs_compilation.cpp	72f6292231aef0de
+326	502	7769416285255310	C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_qtprotoreg_autogen/timestamp	72f6292231aef0de
+326	502	7769416285255310	C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_qtprotoreg_autogen/mocs_compilation.cpp	72f6292231aef0de
+505	632	7769416285745302	CMakeFiles/protobuf_messages_qtprotoreg.dir/protobuf_messages_qtprotoreg_autogen/mocs_compilation.cpp.obj	5b8b7ae566fc0e21
+507	4484	7769416285765308	CMakeFiles/protobuf_messages_qtprotoreg.dir/message_qtprotoreg.cpp.obj	8f69ce35ebb28492
+4486	5022	7769416330320636	protobuf_messages_autogen/timestamp	8c1334c1b939fcd2
+4486	5022	7769416330320636	protobuf_messages_autogen/mocs_compilation.cpp	8c1334c1b939fcd2
+4486	5022	7769416330320636	C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_autogen/timestamp	8c1334c1b939fcd2
+4486	5022	7769416330320636	C:/Users/İbrahim F. Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_autogen/mocs_compilation.cpp	8c1334c1b939fcd2
+5022	5063	7769416330920641	CMakeFiles/protobuf_messages.dir/protobuf_messages_autogen/mocs_compilation.cpp.obj	dd92174474e053e3
+5027	7605	7769416330960639	CMakeFiles/protobuf_messages.dir/message.qpb.cpp.obj	1b5e77556347951d
+7605	8890	7769416369488878	protobuf_messages.dll	39fe5e9089660bd2
+7605	8890	7769416369488878	libprotobuf_messages.a	39fe5e9089660bd2
