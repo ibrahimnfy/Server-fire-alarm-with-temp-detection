@@ -6,44 +6,31 @@
    <rect>
     <x>0</x>
     <y>0</y>
-<<<<<<< HEAD
-    <width>731</width>
-    <height>590</height>
-=======
     <width>800</width>
     <height>600</height>
->>>>>>> 8e0bf03bf710e49b8dd4d040a9e8952fb22c9c2a
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
-<<<<<<< HEAD
   <widget class="QWidget" name="centralwidget">
    <widget class="QTableWidget" name="tableWidget">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>120</y>
-      <width>711</width>
-      <height>191</height>
+      <x>30</x>
+      <y>80</y>
+      <width>541</width>
+      <height>181</height>
      </rect>
     </property>
    </widget>
   </widget>
-=======
-  <widget class="QWidget" name="centralwidget"/>
->>>>>>> 8e0bf03bf710e49b8dd4d040a9e8952fb22c9c2a
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-<<<<<<< HEAD
-     <width>731</width>
-=======
      <width>800</width>
->>>>>>> 8e0bf03bf710e49b8dd4d040a9e8952fb22c9c2a
      <height>22</height>
     </rect>
    </property>

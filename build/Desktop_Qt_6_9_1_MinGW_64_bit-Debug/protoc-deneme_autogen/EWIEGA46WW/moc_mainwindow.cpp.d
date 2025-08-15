@@ -433,5 +433,4 @@ C:/Users/İbrahim\ F.\ Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
   C:/Users/İbrahim\ F.\ Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/message.qpb.h \
   C:/Users/İbrahim\ F.\ Yoğurtçu/Documents/protoc-deneme/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/protobuf_messages_exports.qpb.h \
-  C:/Users/İbrahim\ F.\ Yoğurtçu/Documents/protoc-deneme/server.h \
-  C:/Users/İbrahim\ F.\ Yoğurtçu/Documents/protoc-deneme/testclient.h
+  C:/Users/İbrahim\ F.\ Yoğurtçu/Documents/protoc-deneme/server.h
