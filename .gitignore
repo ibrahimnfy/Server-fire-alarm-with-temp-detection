@@ -1,0 +1,5 @@
+build/
+protoc-deneme/
+testclient.h
+testclient.cpp
+CMakeLists.txt.user
