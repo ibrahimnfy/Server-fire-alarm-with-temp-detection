@@ -99,3 +99,40 @@ Client’lerin bağlanacağı, verilerin okunup işleneceği ve client’lere ce
 
 📌 **Genel olarak server’ın amacı:**  
 Verileri hafızaya almak ve sinyal ile `mainwindow`’a göndermektir.
+# message.proto
+- Bu dosya, client ve server arasındaki mesajlaşma protokolünü tanımlar.  
+Kullanılan sözdizimi **Protocol Buffers v3 (proto3)**’tür.
+
+## Paket
+- **package chat;**  
+  Tüm mesajlar `chat` paketine ait.
+
+## Mesajlar
+
+### Login
+- `string name = 1;` → Client’in ismi  
+- `int64 time = 2;` → Login zamanı (timestamp)  
+- `int64 typeID = 3;` → Client türü (ör. sensör tipi)
+
+### Sensor
+- `string iD = 1;` → Sensör ID’si  
+- `int64 value = 2;` → Ölçülen değer  
+- `int64 typeID = 3;` → Sensör türü (`1 = nem (humi)`, `2 = sıcaklık (temp)`)
+
+### Chat
+- `string sender = 1;` → Mesajı gönderen client  
+- `Sensor sensors = 2;` → Mesaj içindeki sensör verisi
+
+### Wrapper
+- **oneof payload** → Paket tipini belirler:  
+  - `Login login = 1;` → Login mesajı  
+  - `Chat chat = 2;` → Chat/sensör verisi mesajı
+
+---
+
+## Özet
+- `Login` → Client’in sisteme bağlanma bilgileri  
+- `Chat` → Sensör verilerinin gönderimi  
+- `Wrapper` → Dış katman, mesaj türünü ayırt etmek için kullanılır.  
+
+Bu yapı sayesinde client ve server arasındaki haberleşme standart ve tip güvenli hale getirilir.
