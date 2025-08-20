@@ -82,11 +82,9 @@ void MainWindow::onChatReceived(const QString &name, const QString &ID, const Qt
     ui->tableWidget->setItem(row,6, ui->tableWidget->takeItem(row,5));
     ui->tableWidget->setItem(row,5, new QTableWidgetItem(time.toString()));
     ui->tableWidget->setItem(row,2, new QTableWidgetItem(ID));
-    for(auto &&[k,v] : nameToRowMap.asKeyValueRange()){
 
-        if(v.value>20 && value>20 && qAbs(time.toUTC().secsTo(nameToRowMap[name].time))<5 && nameToRowMap[name].typeID==2){
-            alarmCounter++;
-        }
+    if(nameToRowMap[name].value>20 && value>20 && qAbs(time.toUTC().secsTo(nameToRowMap[name].time))<5 && nameToRowMap[name].typeID==2){
+        alarmCounter++;
     }
     nameToRowMap[name].value=value;
     nameToRowMap[name].time=time;
